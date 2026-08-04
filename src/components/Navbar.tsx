@@ -23,8 +23,12 @@ export default function Navbar() {
     <nav className="absolute top-0 left-0 w-full z-50 text-white py-4 md:py-6 px-4 md:px-8 flex flex-col md:flex-row md:justify-center text-sm font-semibold tracking-wide">
       <div className="flex items-center justify-between w-full max-w-[1400px]">
         {/* Logo or empty space for flex alignment on mobile if needed */}
-        <div className="md:hidden">
-          <span className="text-xl font-bold">eResearch 2026</span>
+        <div className="md:hidden bg-white p-1.5 rounded-sm flex items-center justify-center h-10">
+          <img 
+            src="/AeRO_Logo_CMYK.png" 
+            alt="AeRO Logo" 
+            className="h-full w-auto object-contain"
+          />
         </div>
         
         {/* Mobile Menu Toggle */}

@@ -9,7 +9,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: "eResearch Australasia 2026 Conference",
-  description: "26 - 30 October, Melbourne Cricket Ground, Victoria",
+  description: "The 2026 eResearch Australasia Conference will be held at the iconic Melbourne Cricket Ground (MCG) from 26–30 October 2026.",
 };
 
 export default function RootLayout({
