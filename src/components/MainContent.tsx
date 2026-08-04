@@ -1,7 +1,7 @@
 export default function MainContent() {
   return (
-    <section className="w-full bg-white py-20">
-      <div className="max-w-[1400px] mx-auto px-8 grid grid-cols-1 lg:grid-cols-3 gap-16">
+    <section className="w-full bg-white py-12 md:py-20">
+      <div className="max-w-[1400px] mx-auto px-4 md:px-8 grid grid-cols-1 lg:grid-cols-3 gap-12 md:gap-16">
         
         {/* Left Column - Main Content */}
         <div className="lg:col-span-2">
@@ -31,19 +31,19 @@ export default function MainContent() {
               <p className="font-semibold text-brand-text">2026 eResearch Conference Co-Chairs</p>
               <p>Luc Betbeder-Matibet and Rebecca Farrington</p>
               
-              <div className="flex gap-8 mt-6">
-                <div className="w-48 h-48 rounded-full overflow-hidden">
+              <div className="flex flex-wrap gap-6 md:gap-8 mt-6">
+                <div className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden shrink-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                    src="https://conference.eresearch.edu.au/wp-content/uploads/2024/01/1-200x200.png" 
                     alt="Luc Betbeder-Matibet" 
-                    className="w-full h-full object-cover grayscale"
+                    className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="w-48 h-48 rounded-full overflow-hidden">
+                <div className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden shrink-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                    src="https://conference.eresearch.edu.au/wp-content/uploads/2026/04/2024-co-chair-photos-200x200.jpg" 
                     alt="Rebecca Farrington" 
-                    className="w-full h-full object-cover grayscale"
+                    className="w-full h-full object-cover"
                   />
                 </div>
               </div>
