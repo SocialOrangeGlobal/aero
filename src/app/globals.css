@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-blue: #0A1C35;
+  --color-brand-purple: #674293;
+  --color-brand-teal: #1DB2AF;
+  --color-brand-gray: #f9f9fa;
+  --color-brand-text: #333333;
+  --font-sans: var(--font-montserrat);
+}
+
+@layer base {
+  body {
+    @apply bg-white text-brand-text antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+  }
+}
