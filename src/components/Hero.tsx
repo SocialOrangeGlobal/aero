@@ -22,7 +22,7 @@ export default function Hero() {
       </div>
 
       {/* Invisible container to maintain height on desktop */}
-      <div className="hidden md:block relative z-10 w-full max-w-[1400px] mx-auto px-8 h-[85vh] min-h-[600px]">
+      <div className="hidden md:block relative z-10 w-full max-w-[1400px] mx-auto px-8 h-screen min-h-[700px]">
       </div>
     </section>
   );
