@@ -11,7 +11,8 @@ The official landing page for the **eResearch Australasia 2026 Conference**, sch
 - **Fully Responsive Design**: Hand-crafted CSS grids and flexbox layouts that adapt seamlessly across Mobile, Tablet, and Desktop screens.
 - **Interactive Mobile Navigation**: A sleek, accessible dropdown menu tailored for smaller screens using `lucide-react` icons.
 - **Custom Brand Theming**: A highly customized Tailwind v4 setup utilizing CSS variables (`globals.css`) to enforce the strict AeRO brand guidelines (Navy Blue, Purple, Teal).
-- **Component-Driven Architecture**: Modular UI components (`Hero`, `Navbar`, `MainContent`, `Sponsors`, `WhoShouldAttend`, `ConferenceInfo`, and `Footer`) for easy maintenance and scaling.
+- **Component-Driven Architecture**: Modular UI components (`Hero`, `Navbar`, `MainContent`, `Sponsors`, `WhoShouldAttend`, `ConferenceInfo`, `Footer`, `ImageCarousel`) for easy maintenance and scaling.
+- **Comprehensive Page Ecosystem**: Additional dynamically generated pages for Speakers, Sponsor Profiles, Exhibitor Manual, Lead Management, and more.
 - **SEO Optimized**: Built on Next.js App Router for optimal performance and search engine visibility.
 
 ## 🚀 Prerequisites
@@ -57,11 +58,25 @@ aero/
 │   ├── app/
 │   │   ├── globals.css        # Global styles & Tailwind theme variables
 │   │   ├── layout.tsx         # Root layout with Montserrat font configuration
-│   │   └── page.tsx           # Main landing page assembling all components
+│   │   ├── page.tsx           # Main landing page assembling all components
+│   │   ├── abstract-submission/ # Abstract submission details
+│   │   ├── accommodation/     # Accommodation and travel info
+│   │   ├── exhibitor-manual/  # Comprehensive exhibitor and sponsor manual
+│   │   ├── lead-management/   # Lead management tools and info
+│   │   ├── presenter-guidelines/ # Guidelines for presenters
+│   │   ├── program-overview/  # Event program overview
+│   │   ├── registration/      # Registration info and pricing
+│   │   ├── reviewer-guidelines/ # Guidelines for reviewers
+│   │   ├── session-chair-guidelines/ # Guidelines for session chairs
+│   │   ├── speakers/          # Main speakers listing page
+│   │   ├── speaker/           # Dynamic route for individual speaker profiles
+│   │   ├── sponsor-profiles/  # Profiles and modals for all sponsors
+│   │   └── sponsors-exhibitors-opportunities/ # Sponsorship tier packages
 │   └── components/
 │       ├── ConferenceInfo.tsx # Important dates and mailing list
 │       ├── Footer.tsx         # Dark global footer with host/manager links
 │       ├── Hero.tsx           # Full-bleed responsive background hero image
+│       ├── ImageCarousel.tsx  # Dynamic slider for sponsor profile popups
 │       ├── MainContent.tsx    # Invitation letter and co-chair profiles
 │       ├── Navbar.tsx         # Responsive top navigation with mobile menu
 │       ├── Sponsors.tsx       # Tiered grid of conference sponsors
