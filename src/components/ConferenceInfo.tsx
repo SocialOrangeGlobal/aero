@@ -7,7 +7,7 @@ export default function ConferenceInfo() {
       <div className="max-w-[1400px] mx-auto px-4 md:px-8">
 
         {/* Top Row */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 mb-16">
           {/* Important Dates */}
           <div>
             <h3 className="text-2xl text-brand-text font-bold mb-6">Important Dates</h3>

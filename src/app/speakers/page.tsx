@@ -42,7 +42,7 @@ export default function SpeakersPage() {
 
       {/* Speakers Grid */}
       <section className="w-full py-16 px-6 max-w-[1200px] mx-auto mb-16 flex-grow">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
           {speakers.map((speaker, idx) => (
             <Link href={`/speaker/${speaker.id}`} key={idx} className="flex flex-col group cursor-pointer transition-transform hover:-translate-y-1">
               <div className="aspect-square w-full mb-6 overflow-hidden bg-gray-100">

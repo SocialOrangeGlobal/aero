@@ -71,7 +71,8 @@ aero/
 │   │   ├── speakers/          # Main speakers listing page
 │   │   ├── speaker/           # Dynamic route for individual speaker profiles
 │   │   ├── sponsor-profiles/  # Profiles and modals for all sponsors
-│   │   └── sponsors-exhibitors-opportunities/ # Sponsorship tier packages
+│   │   ├── sponsors-exhibitors-opportunities/ # Sponsorship tier packages
+│   │   └── visit-melbourne/   # Information on exploring Melbourne
 │   └── components/
 │       ├── ConferenceInfo.tsx # Important dates and mailing list
 │       ├── Footer.tsx         # Dark global footer with host/manager links

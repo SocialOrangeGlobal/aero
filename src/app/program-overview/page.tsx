@@ -93,7 +93,7 @@ export default function ProgramOverviewPage() {
         <div className="flex flex-col gap-12">
           {schedule.map((day, dayIdx) => (
             <div key={dayIdx}>
-              <h3 className="text-[22px] font-bold text-gray-700 mb-6 pl-0 md:pl-48">{day.date}</h3>
+              <h3 className="text-[22px] font-bold text-gray-700 mb-6 pl-0 md:pl-12 lg:pl-48">{day.date}</h3>
               <div className="flex flex-col gap-4">
                 {day.items.map((item, itemIdx) => (
                   <div key={itemIdx} className="flex flex-col md:flex-row border-b border-gray-100 pb-4 last:border-0 last:pb-0">
